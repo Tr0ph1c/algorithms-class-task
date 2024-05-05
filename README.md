@@ -4,7 +4,7 @@
 [Problem](#problem)<br>
 [Solutions](#solutions)<br>
 [Time Complexity](#time-complexity)<br>
-[How To Build](#how=to-build)<br>
+[How To Build](#how-to-build)<br>
 
 ## Problem
 A zero-indexed array A consisting of N integers is given. A triplet (P, Q, R) is triangular if:
