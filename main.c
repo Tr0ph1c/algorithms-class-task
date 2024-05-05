@@ -62,7 +62,7 @@ int main () {
                 printf("%s", mergeIsTriangular(arr, arr_size)? "The array is triangular" : "The array is not triangular");
             break;
             case 3:
-                printf("%s", recursiveIsTriangular(arr, arr_size, 0, 0, 0)? "The array is triangular" : "The array is not triangular");
+                printf("%s", recursiveIsTriangular(arr, arr_size, 0, 1, 2)? "The array is triangular" : "The array is not triangular");
             break;
         }
 
