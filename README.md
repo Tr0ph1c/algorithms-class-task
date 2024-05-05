@@ -4,6 +4,7 @@
 [Problem](#problem)<br>
 [Solutions](#solutions)<br>
 [Time Complexity](#time-complexity)<br>
+[How To Build](#how=to-build)<br>
 
 ## Problem
 A zero-indexed array A consisting of N integers is given. A triplet (P, Q, R) is triangular if:
@@ -89,3 +90,6 @@ O(N log N)<br>
 **Recursive method:**<br>
 T(N) = T(N-1) + O(N)<br>
 O(N^2)<br>
+
+## How To Build
+**Clone the repo and run** `build.bat` or `./build.sh` for linux, the file `main.exe` will get compiled.
