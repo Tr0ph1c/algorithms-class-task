@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define getArraySize(x) *(&x + 1) - x
 
 int recursiveIsTriangular(int *A, int N, int i, int j, int k) {
     if (i >= N - 2)

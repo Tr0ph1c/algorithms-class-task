@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define getArraySize(x) *(&x + 1) - x
 
 void merge(int *arr, int l, int m, int r) {
     int n1 = m - l + 1;

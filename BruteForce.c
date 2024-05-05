@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define getArraySize(x) *(&x + 1) - x
 
 int bruteIsTriangular(int *A, int N) {
     if (N < 3)
