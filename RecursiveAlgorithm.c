@@ -22,10 +22,10 @@ int recursiveIsTriangular(int *A, int N, int i, int j, int k) {
 
 //PseudoCode
 
-// Algorithm isTriangular(*A,  N,  i,  j, k) {
+// Algorithm isTriangular(A[], N, i, j, k) {
 //     if (i >= N - 2) then {
 //         return 0;
-//      }
+//     }
 //     if (j >= N - 1) then 
 //     {
 //         return isTriangular(A, N, i + 1, i + 2, i + 3);
