@@ -65,18 +65,8 @@ int mergeIsTriangular(int *A, int N) {
     return 0;
 }
 
-/*int main() {
-    int nums1[] = {10, 50, 1};
-    int nums2[] = {10, 2, 5, 1, 8, 20};
-
-    printf("Output for nums1: %d\n", isTriangular(nums1, getArraySize(nums1)));
-    printf("Output for nums2: %d\n", isTriangular(nums2, getArraySize(nums2)));
-
-    return 0;
-}*/
-
 //Pesudo Code
-// Algorithm merge( arr, l,  m,  r) {
+// Algorithm merge(arr[], l,  m,  r) {
 //      n1 <- m - l + 1;
 //      n2 <- r - m;
 
@@ -115,7 +105,7 @@ int mergeIsTriangular(int *A, int N) {
 //     }
 // }
 
-// Algorithm mergeSort(arr, l, r) {
+// Algorithm mergeSort(arr[], l, r) {
 //     if (l < r) do {
 //         int m <- l + (r - l) / 2;
 
@@ -126,7 +116,7 @@ int mergeIsTriangular(int *A, int N) {
 //     }
 // }
 
-// int isTriangular(int *A, int N) {
+// Algorithm isTriangular(int A[], int N) {
 //     if (N < 3) then
 //         return 0;
 
@@ -134,11 +124,16 @@ int mergeIsTriangular(int *A, int N) {
 
 //     for i = 0 to N - 2 step 1 do
 //     {
-//         if ((long long)A[i] + A[i + 1] > A[i + 2])
+//         if (A[i] + A[i + 1] > A[i + 2])
 //             return 1;
 //     }
 
 //     return 0;
 // }
 
-// T(n) = 2T(n/2) + 2O(n) = O(n log n)
+// Analysis:
+//
+// T(N) = 2T(N/2) + 2O(N)
+//
+// Worst case:
+// O(N log N)

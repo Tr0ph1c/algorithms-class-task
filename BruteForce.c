@@ -18,25 +18,9 @@ int bruteIsTriangular(int *A, int N) {
     return 0;
 }
 
-/*int main() {
-    int nums1[] = {10, 50, 1};
-    int nums2[] = {10, 2, 5, 1, 8, 20};
-	
-	printf("3: %d\n", getArraySize(nums1));
-	printf("6: %d\n", getArraySize(nums2));
-
-    getArraySize(nums1);
-    getArraySize(nums2);
-	
-    printf("Output for nums1: %d\n", isTriangular(nums1, getArraySize(nums1)));
-    printf("Output for nums2: %d\n", isTriangular(nums2, getArraySize(nums2)));
-
-    return 0;
-}*/
-
 //PseudoCode
 
-// Algoritm isTriangular(*A, N) {
+// Algorithm isTriangular(A[], N) {
 //     if (N < 3)
 //         return 0;
 
@@ -57,4 +41,4 @@ int bruteIsTriangular(int *A, int N) {
 //     return 0;
 // }
 
-// Summation of Three Nested Loop = O (n^3)
+// Summation of Three Nested Loop = O (N^3)

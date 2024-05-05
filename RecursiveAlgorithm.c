@@ -20,16 +20,6 @@ int recursiveIsTriangular(int *A, int N, int i, int j, int k) {
     return recursiveIsTriangular(A, N, i, j, k + 1);
 }
 
-/*int main() {
-    int nums1[] = {10, 50, 1};
-    int nums2[] = {10, 2, 5, 1, 8, 20};
-
-    printf("Output for nums1: %d\n", isTriangular(nums1, getArraySize(nums1), 0, 1, 2));
-    printf("Output for nums2: %d\n", isTriangular(nums2, getArraySize(nums2), 0, 1, 2)); 
-
-    return 0;
-}*/
-
 //PseudoCode
 
 // Algorithm isTriangular(*A,  N,  i,  j, k) {
@@ -53,4 +43,9 @@ int recursiveIsTriangular(int *A, int N, int i, int j, int k) {
 //     return isTriangular(A, N, i, j, k + 1);
 // }
 
-//T(n) = T(n-1) + O(n) = O(n^2)
+// Analysis:
+//
+// T(N) = T(N-1) + O(N)
+//
+// Worst case:
+// O(N^2)
