@@ -129,10 +129,3 @@ int mergeIsTriangular(int *A, int N) {
 
 //     return 0;
 // }
-
-// Analysis:
-//
-// T(N) = 2T(N/2) + 2O(N)
-//
-// Worst case:
-// O(N log N)

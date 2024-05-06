@@ -39,5 +39,3 @@ int bruteIsTriangular(int *A, int N) {
 
 //     return 0;
 // }
-
-// Summation of Three Nested Loop = O (N^3)

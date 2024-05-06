@@ -41,10 +41,3 @@ int recursiveIsTriangular(int *A, int N, int i, int j, int k) {
 
 //     return isTriangular(A, N, i, j, k + 1);
 // }
-
-// Analysis:
-//
-// T(N) = T(N-1) + O(N)
-//
-// Worst case:
-// O(N^2)
