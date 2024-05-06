@@ -84,12 +84,10 @@ Algorithm isTriangular(A[], N, i, j, k) {
 Summation of Three Nested Loop = O (N^3)<br>
 
 **Merge sort method:**<br>
-T(N) = 2T(N/2) + 2O(N)<br>
 O(N log N)<br>
 
 **Recursive method:**<br>
-T(N) = T(N-1) + O(N)<br>
-O(N^2)<br>
+O(3^N)<br>
 
 ## How To Build
 **Clone the repo and run** `build.bat` or `./build.sh` for linux, the file `main.exe` will get compiled.
