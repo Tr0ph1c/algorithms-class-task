@@ -30,9 +30,9 @@ Algorithm isTriangular(A[], N) {
     if (N < 3)
         return 0;
 
-    for i = 0 to N - 2 step 1 do
-        for  j = i + 1 to N - 1 step 1 
-            for k = j + 1 to N step 1 
+    for i := 0 to N - 2 step 1 do
+        for  j := i + 1 to N - 1 step 1 
+            for k := j + 1 to N step 1 
                 if (A[i] + A[j] > A[k] && A[j] + A[k] > A[i] && A[k] + A[i] > A[j]) then
                     return 1;
 
@@ -50,7 +50,7 @@ Algorithm isTriangular(A[], N) {
 
     MergeSort(A, 0, N - 1);
 
-    for i = 0 to N - 2 step 1 do
+    for i := 0 to N - 2 step 1 do
         if (A[i] + A[i + 1] > A[i + 2])
             return 1;
 
